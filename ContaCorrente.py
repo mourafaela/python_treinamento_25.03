@@ -19,7 +19,6 @@ class ContaCorrente(Conta):
         print("Você efetuou um deposito no valor de " + ("R$%.2f" %valor_deposito))
         print(".........................................................................................................")
 
-    #aqui não seria possivel aplicar o principio Single Responsibility pois para validar o saldo, é necessário saber o valor do saque
     def sacar(self,valor_saque = float): 
         try:
             if self._saldo - valor_saque < 0:
