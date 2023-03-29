@@ -26,11 +26,11 @@ print("\n#######################################################################
 contapoupancaB = ContaPoupanca(56789, 14590.98, 0.5) # 0.5% de rendimento ao mes 
 contapoupancaB.id
 contapoupancaB.saldo
-contapoupancaB.verificar_rendimento_ao_ano() # a taxa de rendimento é R$899,94
+contapoupancaB.verificar_rendimento_ao_ano() # o rendimento anual agora é R$899,94
 contapoupancaB.depositar(2700.30)
 contapoupancaB.saldo # o saldo agora é R$17291,28
-contapoupancaB.verificar_rendimento_ao_ano() # a taxa agora é R$1.066,49
+contapoupancaB.verificar_rendimento_ao_ano() # o rendimento anual agora é R$1.066,49
 contapoupancaB.sacar(10000.00)
 contapoupancaB.saldo # o saldo agora é R$7291,28
-contapoupancaB.verificar_rendimento_ao_ano() # a taxa de rendimento é R$449,71
+contapoupancaB.verificar_rendimento_ao_ano() # o rendimento anual agora é R$449,71
 contapoupancaB.sacar(15000.00) # o saldo não é suficiente, portanto a ação será negada
